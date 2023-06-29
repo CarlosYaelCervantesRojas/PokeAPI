@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.card{
+    background-color: #444443;
+    border-radius: 10px;
+    border-bottom: 1px #cbc07e solid;
+    border-top: 1px #cbc07e solid;
+    width: 18%;
+    height: 40vh;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), -2px -2px 4px rgba(44, 44, 44, 255);
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
+}
+.id{
+    background-color: #cbc07e;
+    border-bottom-right-radius: 10px;
+    padding: 0 15px;
+    font-family: 'Kalam', cursive;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 30px;
+    font-family: 'Kalam', cursive;
+}
+.text h2{
+    color: white;
+}
+.text span{
+    color: #cbc07e;
+}
